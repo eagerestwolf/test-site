@@ -1,0 +1,66 @@
+/******************************************************************************
+ *  Font Variables
+ *  ==============
+ *
+ *  These variables are for controlling things like font sizes and weights. All
+ *  variables here are defined as defaults, so they can be overridden
+ *****************************************************************************/
+// Import any needed Google Fonts here
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+// Define font families
+$font-family-base: 'Source Sans Pro', Helvetica, 'Segoe UI', Arial, sans-serif !default;
+$font-family-logo: 'Rock Salt' !default;
+
+// Font sizes
+$font-size-base: 1rem !default;
+$font-size-h1: 6 * $font-size-base !default;
+$font-size-h2: 3.75 * $font-size-base !default;
+$font-size-h3: 3 * $font-size-base !default;
+$font-size-h4: 2.125 * $font-size-base !default;
+$font-size-h5: 1.5 * $font-size-base !default;
+$font-size-h6: $font-size-base !default;
+
+// Font weights
+$font-weight-base: normal !default;
+$font-weight-h1: lighter !default;
+$font-weight-h2: lighter !default;
+$font-weight-h3: normal !default;
+$font-weight-h4: normal !default;
+$font-weight-h5: normal !default;
+$font-weight-h6: medium !default;
+
+
+/******************************************************************************
+ * Color Variables
+ * ===============
+ *
+ * All variables relating to coloring various portions of the UI will be
+ * located in this section
+ *****************************************************************************/
+// Navbar colors
+$color-navbar-background: #333 !default;
+$color-navbar-background-hover: black !default;
+$color-navbar-text: white !default;
+$color-navbar-text-hover: white !default;
+
+// Footer colors
+$color-footer-background: #333 !default;
+$color-footer-text: white !default;
+
+
+/******************************************************************************
+ * Sizing Variables
+ * ===============
+ *
+ * All variables relating to sizing of various elements are located in this
+ * section, except font sizes (those are located in the font section).
+ *****************************************************************************/
+// Navbar sizes
+$size-navbar-item-padding-x: 1.25 * $font-size-base !default;
+$size-navbar-item-padding-y: 0.25 * $font-size-base !default;
+
+// Footer sizes
+$size-footer-margin: 0 !default;
+$size-footer-padding: 2.5 * $font-size-base !default;
